@@ -24,7 +24,7 @@ def get_regression_models(random_state=42):
     models = {
         "LinearRegression": LinearRegression(),
         "Ridge": Ridge(random_state=random_state),
-        "Lasso": Lasso(random_state=random_state),
+        "Lasso": Lasso(random_state=random_state, max_iter=5000),
 
         "DecisionTree": DecisionTreeRegressor(random_state=random_state),
         "RandomForest": RandomForestRegressor(

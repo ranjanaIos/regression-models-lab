@@ -1,3 +1,4 @@
 # Databases
 *.db
 database/
+.DS_Store
