@@ -109,13 +109,11 @@ Top influential features:
 
 These align well with real-world insurance risk assessment logic.
 
-
 ---
 
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Install dependencies
-```bash
 pip install -r requirements.txt
 
 ### 2️⃣ Train the model
@@ -128,7 +126,6 @@ python predict.py
 Predictions will be saved as a CSV file.
 
 ## 🏁 Conclusion
-
 This project demonstrates a complete, industry-grade machine learning workflow, from data ingestion to deployment-ready prediction. The solution is scalable, reproducible, and aligned with real-world insurance pricing use cases.
 
 ## 👤 Author
